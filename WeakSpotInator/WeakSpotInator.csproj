@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HKLib-main\HKLib-main\HKLib.Reflection\HKLib.Reflection.csproj" />
+    <ProjectReference Include="..\HKLib-main\HKLib-main\HKLib.Serialization\HKLib.Serialization.csproj" />
+    <ProjectReference Include="..\HKLib-main\HKLib-main\HKLib\HKLib.csproj" />
+    <ProjectReference Include="..\SoulsFormats\SoulsFormats\SoulsFormats.csproj" />
+  </ItemGroup>
+
+</Project>

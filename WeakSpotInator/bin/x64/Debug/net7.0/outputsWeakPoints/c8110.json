@@ -1,0 +1,122 @@
+[
+  {
+    "ragBones": {
+      "DisableCollision": false,
+      "DisableHit": false,
+      "RagdollParamID": -1,
+      "DamageAnimID": -1,
+      "NPCPartGroupIndex": 0,
+      "NPCPartDamageGroup": 0,
+      "UnknownBB": -1
+    },
+    "hkaBoneA": {
+      "m_lockTranslation": false,
+      "m_name": "Master"
+    },
+    "hkaBoneB": {
+      "m_lockTranslation": false,
+      "m_name": "Ragdoll_Master"
+    },
+    "transform": {
+      "m_rotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0,
+        "W": 0.9999999,
+        "IsIdentity": false
+      },
+      "m_scale": {
+        "X": 1.0000001,
+        "Y": 1.0000001,
+        "Z": 1.0000001,
+        "W": 0
+      },
+      "m_translation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0,
+        "W": 0
+      }
+    }
+  },
+  {
+    "ragBones": {
+      "DisableCollision": false,
+      "DisableHit": false,
+      "RagdollParamID": -1,
+      "DamageAnimID": -1,
+      "NPCPartGroupIndex": 0,
+      "NPCPartDamageGroup": 0,
+      "UnknownBB": -1
+    },
+    "hkaBoneA": {
+      "m_lockTranslation": true,
+      "m_name": "System_point_01"
+    },
+    "hkaBoneB": {
+      "m_lockTranslation": true,
+      "m_name": "Ragdoll_System_point_01"
+    },
+    "transform": {
+      "m_rotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0,
+        "W": 0.99999976,
+        "IsIdentity": false
+      },
+      "m_scale": {
+        "X": 1,
+        "Y": 1,
+        "Z": 1,
+        "W": 0
+      },
+      "m_translation": {
+        "X": -1.9421968E-11,
+        "Y": 5.77569E-05,
+        "Z": 6.572902E-05,
+        "W": 0
+      }
+    }
+  },
+  {
+    "ragBones": {
+      "DisableCollision": false,
+      "DisableHit": false,
+      "RagdollParamID": -1,
+      "DamageAnimID": -1,
+      "NPCPartGroupIndex": 0,
+      "NPCPartDamageGroup": 0,
+      "UnknownBB": -1
+    },
+    "hkaBoneA": {
+      "m_lockTranslation": true,
+      "m_name": "c8110_Root"
+    },
+    "hkaBoneB": {
+      "m_lockTranslation": true,
+      "m_name": "Ragdoll_c8100_Root"
+    },
+    "transform": {
+      "m_rotation": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0,
+        "W": 0.99999964,
+        "IsIdentity": false
+      },
+      "m_scale": {
+        "X": 1.0000001,
+        "Y": 1.0000001,
+        "Z": 1.0000001,
+        "W": 0
+      },
+      "m_translation": {
+        "X": -1.0408338E-17,
+        "Y": -5.364418E-07,
+        "Z": -1.0430813E-07,
+        "W": 0
+      }
+    }
+  }
+]

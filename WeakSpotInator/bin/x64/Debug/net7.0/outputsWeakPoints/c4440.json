@@ -1,0 +1,162 @@
+[
+  {
+    "ragBones": {
+      "DisableCollision": false,
+      "DisableHit": false,
+      "RagdollParamID": -1,
+      "DamageAnimID": -1,
+      "NPCPartGroupIndex": 31,
+      "NPCPartDamageGroup": 9,
+      "UnknownBB": -1
+    },
+    "hkaBoneA": {
+      "m_lockTranslation": false,
+      "m_name": "UpperRoot"
+    },
+    "hkaBoneB": {
+      "m_lockTranslation": false,
+      "m_name": "Ragdoll_UpperRoot001"
+    },
+    "transform": {
+      "m_rotation": {
+        "X": 5.2999113E-08,
+        "Y": -6.612267E-08,
+        "Z": 1.4901161E-07,
+        "W": 0.9999999,
+        "IsIdentity": false
+      },
+      "m_scale": {
+        "X": 1.0000004,
+        "Y": 1.0000004,
+        "Z": 1.0000005,
+        "W": 0
+      },
+      "m_translation": {
+        "X": 2.9802322E-08,
+        "Y": 1.4901161E-08,
+        "Z": 5.820766E-11,
+        "W": -5.364418E-07
+      }
+    }
+  },
+  {
+    "ragBones": {
+      "DisableCollision": false,
+      "DisableHit": false,
+      "RagdollParamID": -1,
+      "DamageAnimID": -1,
+      "NPCPartGroupIndex": 31,
+      "NPCPartDamageGroup": 9,
+      "UnknownBB": -1
+    },
+    "hkaBoneA": {
+      "m_lockTranslation": false,
+      "m_name": "LowerRoot"
+    },
+    "hkaBoneB": {
+      "m_lockTranslation": true,
+      "m_name": "Ragdoll_LowerRoot001"
+    },
+    "transform": {
+      "m_rotation": {
+        "X": 5.566157E-05,
+        "Y": 6.637674E-08,
+        "Z": 3.8742894E-07,
+        "W": 0.9999998,
+        "IsIdentity": false
+      },
+      "m_scale": {
+        "X": 1.0000001,
+        "Y": 1.0000001,
+        "Z": 1.0000002,
+        "W": 0
+      },
+      "m_translation": {
+        "X": 0,
+        "Y": -2.9802322E-08,
+        "Z": -5.4569682E-11,
+        "W": 0.21098185
+      }
+    }
+  },
+  {
+    "ragBones": {
+      "DisableCollision": false,
+      "DisableHit": false,
+      "RagdollParamID": -1,
+      "DamageAnimID": -1,
+      "NPCPartGroupIndex": 1,
+      "NPCPartDamageGroup": 0,
+      "UnknownBB": -1
+    },
+    "hkaBoneA": {
+      "m_lockTranslation": true,
+      "m_name": "Upper1"
+    },
+    "hkaBoneB": {
+      "m_lockTranslation": true,
+      "m_name": "Ragdoll_Upper001"
+    },
+    "transform": {
+      "m_rotation": {
+        "X": -2.4224272E-07,
+        "Y": -2.4864573E-07,
+        "Z": -1.6003847E-05,
+        "W": 0.99999976,
+        "IsIdentity": false
+      },
+      "m_scale": {
+        "X": 1.0000005,
+        "Y": 1.0000005,
+        "Z": 1.0000006,
+        "W": 0
+      },
+      "m_translation": {
+        "X": 5.9604645E-08,
+        "Y": 2.9802322E-08,
+        "Z": -2.3283064E-10,
+        "W": 7.748604E-07
+      }
+    }
+  },
+  {
+    "ragBones": {
+      "DisableCollision": false,
+      "DisableHit": false,
+      "RagdollParamID": -1,
+      "DamageAnimID": -1,
+      "NPCPartGroupIndex": 1,
+      "NPCPartDamageGroup": 0,
+      "UnknownBB": -1
+    },
+    "hkaBoneA": {
+      "m_lockTranslation": true,
+      "m_name": "Upper2"
+    },
+    "hkaBoneB": {
+      "m_lockTranslation": true,
+      "m_name": "Ragdoll_Upper002"
+    },
+    "transform": {
+      "m_rotation": {
+        "X": -6.329554E-07,
+        "Y": -3.9814688E-07,
+        "Z": -0.00023806095,
+        "W": 0.9999997,
+        "IsIdentity": false
+      },
+      "m_scale": {
+        "X": 1.0000005,
+        "Y": 1.0000004,
+        "Z": 1.0000006,
+        "W": 0
+      },
+      "m_translation": {
+        "X": 3.9339066E-06,
+        "Y": -2.348423E-05,
+        "Z": 2.6775524E-07,
+        "W": 3.874302E-06
+      }
+    }
+  }
+]

@@ -1,0 +1,253 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Microsoft.NETCore.Platforms/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "System.Text.Encoding.CodePages/4.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "HKLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/HKLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HKLib.dll": {}
+        }
+      },
+      "HKLib.Reflection/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "HKLib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HKLib.Reflection.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HKLib.Reflection.dll": {}
+        }
+      },
+      "HKLib.Serialization/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "HKLib": "1.0.0",
+          "HKLib.Reflection": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HKLib.Serialization.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HKLib.Serialization.dll": {}
+        }
+      },
+      "SoulsFormats/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "System.Text.Encoding.CodePages": "4.7.0"
+        },
+        "compile": {
+          "bin/placeholder/SoulsFormats.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SoulsFormats.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "sha512": "z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Text.Encoding.CodePages/4.7.0": {
+      "sha512": "aeu4FlaUTemuT1qOd1MyU4T516QR4Fy+9yDbwWMPHOHy7U8FD6SgTzdZFO7gHcfAPHtECqInbwklVvUK4RHcNg==",
+      "type": "package",
+      "path": "system.text.encoding.codepages/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Text.Encoding.CodePages.dll",
+        "lib/net461/System.Text.Encoding.CodePages.dll",
+        "lib/net461/System.Text.Encoding.CodePages.xml",
+        "lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "lib/netstandard2.0/System.Text.Encoding.CodePages.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/win/lib/net461/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/net461/System.Text.Encoding.CodePages.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.xml",
+        "runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netstandard2.0/System.Text.Encoding.CodePages.xml",
+        "system.text.encoding.codepages.4.7.0.nupkg.sha512",
+        "system.text.encoding.codepages.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "HKLib/1.0.0": {
+      "type": "project",
+      "path": "../HKLib-main/HKLib-main/HKLib/HKLib.csproj",
+      "msbuildProject": "../HKLib-main/HKLib-main/HKLib/HKLib.csproj"
+    },
+    "HKLib.Reflection/1.0.0": {
+      "type": "project",
+      "path": "../HKLib-main/HKLib-main/HKLib.Reflection/HKLib.Reflection.csproj",
+      "msbuildProject": "../HKLib-main/HKLib-main/HKLib.Reflection/HKLib.Reflection.csproj"
+    },
+    "HKLib.Serialization/1.0.0": {
+      "type": "project",
+      "path": "../HKLib-main/HKLib-main/HKLib.Serialization/HKLib.Serialization.csproj",
+      "msbuildProject": "../HKLib-main/HKLib-main/HKLib.Serialization/HKLib.Serialization.csproj"
+    },
+    "SoulsFormats/1.0.0": {
+      "type": "project",
+      "path": "../SoulsFormats/SoulsFormats/SoulsFormats.csproj",
+      "msbuildProject": "../SoulsFormats/SoulsFormats/SoulsFormats.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "HKLib >= 1.0.0",
+      "HKLib.Reflection >= 1.0.0",
+      "HKLib.Serialization >= 1.0.0",
+      "SoulsFormats >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Francis Wang\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Francis Wang\\source\\repos\\WeakSpotInator\\WeakSpotInator\\WeakSpotInator.csproj",
+      "projectName": "WeakSpotInator",
+      "projectPath": "C:\\Users\\Francis Wang\\source\\repos\\WeakSpotInator\\WeakSpotInator\\WeakSpotInator.csproj",
+      "packagesPath": "C:\\Users\\Francis Wang\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Francis Wang\\source\\repos\\WeakSpotInator\\WeakSpotInator\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Francis Wang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\Francis Wang\\source\\repos\\WeakSpotInator\\HKLib-main\\HKLib-main\\HKLib.Reflection\\HKLib.Reflection.csproj": {
+              "projectPath": "C:\\Users\\Francis Wang\\source\\repos\\WeakSpotInator\\HKLib-main\\HKLib-main\\HKLib.Reflection\\HKLib.Reflection.csproj"
+            },
+            "C:\\Users\\Francis Wang\\source\\repos\\WeakSpotInator\\HKLib-main\\HKLib-main\\HKLib.Serialization\\HKLib.Serialization.csproj": {
+              "projectPath": "C:\\Users\\Francis Wang\\source\\repos\\WeakSpotInator\\HKLib-main\\HKLib-main\\HKLib.Serialization\\HKLib.Serialization.csproj"
+            },
+            "C:\\Users\\Francis Wang\\source\\repos\\WeakSpotInator\\HKLib-main\\HKLib-main\\HKLib\\HKLib.csproj": {
+              "projectPath": "C:\\Users\\Francis Wang\\source\\repos\\WeakSpotInator\\HKLib-main\\HKLib-main\\HKLib\\HKLib.csproj"
+            },
+            "C:\\Users\\Francis Wang\\source\\repos\\WeakSpotInator\\SoulsFormats\\SoulsFormats\\SoulsFormats.csproj": {
+              "projectPath": "C:\\Users\\Francis Wang\\source\\repos\\WeakSpotInator\\SoulsFormats\\SoulsFormats\\SoulsFormats.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
