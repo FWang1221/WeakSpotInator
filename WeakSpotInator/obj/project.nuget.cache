@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "zRNuhmGIxTzo5w0jSy1oA0kw9fB8kaxgmgriLpewOz0vrJAIoNCL4XD7YxlV9WVKn2acotZ+WlEA1jFI4TeY5A==",
+  "dgSpecHash": "BJGIrpuOLRNEmRNYh/OTNcM0lg/RmEJSPnGrXe0AnIeNZHDUKQu8vzVLL/QU+5fX1dQR9XArkp4R1lr4TCL6DA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Francis Wang\\source\\repos\\WeakSpotInator\\WeakSpotInator\\WeakSpotInator.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Francis Wang\\.nuget\\packages\\keralua\\1.4.1\\keralua.1.4.1.nupkg.sha512",
     "C:\\Users\\Francis Wang\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\Francis Wang\\.nuget\\packages\\nlua\\1.7.3\\nlua.1.7.3.nupkg.sha512",
     "C:\\Users\\Francis Wang\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512"
   ],
   "logs": []

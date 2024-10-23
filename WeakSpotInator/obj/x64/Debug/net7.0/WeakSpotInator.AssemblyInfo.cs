@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WeakSpotInator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59d6cd5b9f8c4ff68d4ac3cf16c298d941b51920")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf6259235e618473fd84376d1d0b93048185bb9c")]
 [assembly: System.Reflection.AssemblyProductAttribute("WeakSpotInator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WeakSpotInator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

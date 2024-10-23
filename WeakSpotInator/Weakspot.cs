@@ -168,30 +168,54 @@ namespace WeakSpotInator
 
         public bool editMapping(string boneAName, string boneBName, SoulsFormats.HKXPWV.RagdollBoneEntry ragBoneEntry) {
 
-            // Find the indices of boneAName and boneBName in skeletonA and skeletonB
-            int indexA = this.skeletonA.m_bones.FindIndex(x => x.m_name.Equals(boneAName));
-            int indexB = this.skeletonB.m_bones.FindIndex(x => x.m_name.Equals(boneBName));
-
-            // Find the corresponding SimpleMapping based on the indices
-            HKLib.hk2018.hkaSkeletonMapperData.SimpleMapping correspondingMapping = this.simpleMappings.FirstOrDefault(mapping =>
-                mapping.m_boneA == indexA && mapping.m_boneB == indexB);
-
-            if (correspondingMapping != null)
+            try
             {
-                // Retrieve the RagdollBoneEntry using the corresponding mapping
-                SoulsFormats.HKXPWV.RagdollBoneEntry ragBone = this.HKXPWV.RagdollBoneEntries[this.simpleMappings.IndexOf(correspondingMapping)];
-                
-                ragBone.DisableCollision = ragBoneEntry.DisableCollision;
-                ragBone.UnknownBB = ragBoneEntry.UnknownBB;
-                ragBone.NPCPartGroupIndex = ragBoneEntry.NPCPartGroupIndex;
-                ragBone.DamageAnimID = ragBoneEntry.DamageAnimID;
-                ragBone.NPCPartDamageGroup = ragBoneEntry.NPCPartDamageGroup;
-                ragBone.RagdollParamID = ragBoneEntry.RagdollParamID;
-                ragBone.DisableHit = ragBoneEntry.DisableHit;
-                return true;
+
+                // Find the indices of boneAName and boneBName in skeletonA and skeletonB
+                int indexA = this.skeletonA.m_bones.FindIndex(x => x.m_name.Equals(boneAName));
+                int indexB = this.skeletonB.m_bones.FindIndex(x => x.m_name.Equals(boneBName));
+
+                // Find the corresponding SimpleMapping based on the indices
+                HKLib.hk2018.hkaSkeletonMapperData.SimpleMapping correspondingMapping = this.simpleMappings.FirstOrDefault(mapping =>
+                    mapping.m_boneA == indexA && mapping.m_boneB == indexB);
+
+                if (correspondingMapping != null)
+                {
+                    // Retrieve the RagdollBoneEntry using the corresponding mapping
+                    SoulsFormats.HKXPWV.RagdollBoneEntry ragBone = this.HKXPWV.RagdollBoneEntries[this.simpleMappings.IndexOf(correspondingMapping)];
+
+                    ragBone.DisableCollision = ragBoneEntry.DisableCollision;
+                    ragBone.UnknownBB = ragBoneEntry.UnknownBB;
+                    ragBone.NPCPartGroupIndex = ragBoneEntry.NPCPartGroupIndex;
+                    ragBone.DamageAnimID = ragBoneEntry.DamageAnimID;
+                    ragBone.NPCPartDamageGroup = ragBoneEntry.NPCPartDamageGroup;
+                    ragBone.RagdollParamID = ragBoneEntry.RagdollParamID;
+                    ragBone.DisableHit = ragBoneEntry.DisableHit;
+                    return true;
+                }
+                return false;
+            } catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
             }
-            return false;
-            
+
+        }
+
+        public HKXPWV.RagdollBoneEntry ragdollBoneEntryMaker(bool DisableHit, int DamageAnimID, bool DisableCollision, int NPCPartDamageGroup, int NPCPartGroupIndex, int RagdollParamID, int UnknownBB)
+        {
+
+            HKXPWV.RagdollBoneEntry ragBoneEntry = new HKXPWV.RagdollBoneEntry();
+            ragBoneEntry.DisableHit = DisableHit;
+            ragBoneEntry.DamageAnimID = (short)DamageAnimID;
+            ragBoneEntry.DisableCollision = DisableCollision;
+            ragBoneEntry.NPCPartDamageGroup = (byte)NPCPartDamageGroup;
+            ragBoneEntry.NPCPartGroupIndex = (byte)NPCPartGroupIndex;
+            ragBoneEntry.RagdollParamID = (int)RagdollParamID;
+            ragBoneEntry.UnknownBB = (sbyte) UnknownBB;
+
+            return ragBoneEntry;
+
         }
 
         public void writeToFiles() {

@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="NLua" Version="1.7.3" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\HKLib-main\HKLib-main\HKLib.Reflection\HKLib.Reflection.csproj" />
     <ProjectReference Include="..\HKLib-main\HKLib-main\HKLib.Serialization\HKLib.Serialization.csproj" />
     <ProjectReference Include="..\HKLib-main\HKLib-main\HKLib\HKLib.csproj" />
